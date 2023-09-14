@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.sr-only:not(:focus):not(:active) {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+.nav {
+  padding: 1rem;
+  color: #ffe7ae;
+}
+.nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+.nav li {
+  margin: 0 8px;
+  display: inline-block;
+}
+.nav a {
+  text-align: center;
+  display: block;
+}
+nav a.virk {
+  font-weight: bold;
+  text-decoration: none;
+}
+body {
+  width: 900px;
+  font-family: "Lora";
+}
+.haus {
+  background-color: #2f0505;
+  text-align: center;
+  border-bottom: 8px solid #ffe7ae;
+  color: #ffe7ae;
+  padding: 1rem;
+}
+.meginmal {
+  margin: 1rem;
+  padding: 2rem 2rem;
+}
+.opnunartimi li {
+  list-style: none;
+}
+#sagan {
+  width: 100%;
+}
+.box {
+  padding-bottom: 2rem;
+  margin: 1rem;
+  text-align: left;
+  display: inline-block;
+  width: 40%;
+  vertical-align: top;
+  position: relative;
+}
+.box img {
+  background-size: 100%;
+}
+.seperator {
+  border: 1px solid #ffe7ae;
+}
+.standAlone {
+  margin-left: 1rem;
+}
+.box h3,
+h2 {
+  /*margin-top: -5rem;*/
+  padding-left: 1rem;
+}
+.box h4 {
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+.minnaStafabil p {
+  margin-top: -1em;
+}
+.box p {
+  padding: 1rem;
+  /*margin-top: -1rem;*/
+}
+.box ul {
+  list-style: none;
+}
+#menu {
+  width: 100%;
+}
+#menu table {
+  border-collapse: collapse;
+}
+#menu tr:nth-child(odd) {
+  background-color: #ffe7ae;
+}
+
+#menu thead th {
+  background-color: white;
+  border-spacing: 0 2px;
+  text-align: center;
+}
+div#pontun h3 {
+  position: relative;
+}
+footer {
+  padding-top: 1em;
+  background-color: #2f0505;
+  border-top: 8px solid #ffe7ae;
+}
+.fotur {
+  text-align: center;
+  color: #ffe7ae;
+}
+.pontunarSida {
+  border: 1px solid #ffe7ae;
+}
+.pontunarSida h3 {
+  margin-top: -1rem;
+}
+.fotur a {
+  color: #ffe7ae;
+}
